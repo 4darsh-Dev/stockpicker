@@ -1,0 +1,45 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock title %} | Stocky.ai</title>
+    <link rel="stylesheet" href="{% static 'css/indexStyle.css' %}">
+    <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
+
+
+</head>
+<body>
+    <header>
+        <div class="head">
+            <nav>
+                <ul>
+                    <li id="m-head"><a href="/"><img id="logo" src="/static/img/Stocky.png" alt="Stocky"></a></li>
+                    <!-- <li><a href="/live">Live</a></li>
+                    <li><a href="/analyze">Anaylze</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li> -->
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+    {% block body %}
+
+    {% endblock body %}
+   
+    <footer>
+        <div class="foot">
+            <p> I am footer welcome to the Stocky.ai </p>
+        </div>
+
+    </footer>
+    <script src="/static/js/Index.js" >
+        
+
+    </script>
+</body>
+</html>

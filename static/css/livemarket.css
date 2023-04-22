@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#live-chart{
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+
+}

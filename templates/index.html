@@ -1,0 +1,49 @@
+{% extends 'base.html' %} 
+
+{% load static %}
+
+{% comment %} Go to base.html and fill all these informations given below {% endcomment %}
+
+{% block title %}Home{% endblock title %}
+{% block body %}
+
+<main>
+    <div class="container">
+        <h1 class="head-txt-1">Welcome to <span><a href="/">Stocky.ai</a></span></h1>
+        <p class="intro-txt-2">Save your time, Anaylze your stocks using AI and check latest Market Indices... </p>
+        <div class="box2">
+            <div class="box3">
+                
+                <div class="box3-sub1">
+                    <img class="box3-sub1-img" src="/static/img/live_index.webp" alt="live_market_index">
+                </div>
+                <div class="box3-sub2">
+                    <button id="live-btn" class="btn1">
+                        Live Market Indices
+                    </button>
+
+                </div>
+            </div>
+
+            <div class="box4">
+                
+                <div class="box3-sub1">
+                    <img class="box3-sub1-img" src="static/img/analyze_stock.webp" alt="analyze_stock">
+                </div>
+                <div class="box3-sub2">
+                    <button id="analyze-btn" class="btn1">
+                       Stock Anaylzer
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+</main>
+
+{% endblock body %}

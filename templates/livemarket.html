@@ -1,0 +1,20 @@
+
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Live Market{% endblock title %}
+
+{% block body %}
+This is live market index.
+<canvas id="live-chart">
+
+</canvas>
+<script src="/static/js/live.js">
+
+</script>
+
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+</script>
+
+{% endblock body %}
+

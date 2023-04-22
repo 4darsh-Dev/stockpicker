@@ -1,0 +1,137 @@
+/* Stocky.ai landing page  */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+
+}
+.head{
+    position: relative;
+    width: 100%;
+    height: 4rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px -4px 20px rgb(96, 97, 102);
+
+}
+
+#m-head{
+    font-family: sans-serif,monospace;
+    font-size: 32px;
+    text-align: center;
+    
+}
+#m-head a{
+    text-decoration: none;
+    color: #bd25bb;
+}
+#logo{
+    height: 40px;
+    width: auto;
+    margin-top: 10px;
+}
+.container{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.head-txt-1{
+    font-size: 44px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    padding: 18px 8px 0px 8px;
+    text-align: center;
+    
+}
+.head-txt-1 span{
+    font-family: sans-serif,monospace;
+    font-size: 32px;
+    color: #bd25bb;
+    
+}
+.head-txt-1 span a{
+    text-decoration: none;
+}
+.intro-txt-2{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding:8px;
+    text-align: center;
+
+}
+.box2{
+    width: 950px;
+    height: 400px;
+    padding: 20px;
+    margin: 20px 40px 40px 40px;
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(#db23c7, transparent), linear-gradient(to top left, #0aecc2, transparent), linear-gradient(to top right, #e11ade, transparent);
+    background-blend-mode: screen;
+    border-radius: 12px;
+
+
+}
+.box3{
+    height: 390px;
+    width: 450px;
+    margin-left: 15px;
+
+}
+.box4{
+    height: 390px;
+    width: 450px;
+   margin-left: 50px;
+
+}
+.box3-sub1{
+    width: calc(100% -24px);
+    height: 300px;
+  
+    padding: 12px;
+    
+    
+}
+.box3-sub1-img{
+    height: 300px;
+    width: 400px;
+    border-radius: 6px;
+}
+.btn1{
+    margin-left: 12px;
+    width: 400px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: rgb(17, 232, 191);
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+    border: 0px solid #0aecc2;
+}
+.btn1:hover{
+    background-color: #263b37;
+    font-weight:600;
+    color: white;
+}
+
+.box3-sub2{
+    width: 100%;
+    height: 66px;
+    
+
+}
+.foot{
+    width: 100%;
+    height: 10rem;
+    margin-top: 10px;
+    background-color: #263b37;
+}
